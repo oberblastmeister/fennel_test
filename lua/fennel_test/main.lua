@@ -106,4 +106,51 @@ do
   _0_0["aniseed/locals"]["changed-something"] = v_0_
   changed_something = v_0_
 end
+local another_change = nil
+do
+  local v_0_ = nil
+  do
+    local v_0_0 = nil
+    local function another_change0()
+      return print("another thing was changed")
+    end
+    v_0_0 = another_change0
+    _0_0["another-change"] = v_0_0
+    v_0_ = v_0_0
+  end
+  _0_0["aniseed/locals"]["another-change"] = v_0_
+  another_change = v_0_
+end
+local final_change = nil
+do
+  local v_0_ = nil
+  do
+    local v_0_0 = nil
+    local function final_change0()
+      print("finally changed")
+      return 5
+    end
+    v_0_0 = final_change0
+    _0_0["final-change"] = v_0_0
+    v_0_ = v_0_0
+  end
+  _0_0["aniseed/locals"]["final-change"] = v_0_
+  final_change = v_0_
+end
+local last_change = nil
+do
+  local v_0_ = nil
+  do
+    local v_0_0 = nil
+    local function last_change0()
+      print("hello dude")
+      return 5
+    end
+    v_0_0 = last_change0
+    _0_0["last-change"] = v_0_0
+    v_0_ = v_0_0
+  end
+  _0_0["aniseed/locals"]["last-change"] = v_0_
+  last_change = v_0_
+end
 return nil
