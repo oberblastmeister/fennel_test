@@ -46,4 +46,49 @@ do
   _0_0["aniseed/locals"]["init"] = v_0_
   init = v_0_
 end
+local another_one = nil
+do
+  local v_0_ = nil
+  do
+    local v_0_0 = nil
+    local function another_one0()
+      return print("Hello, Dude!")
+    end
+    v_0_0 = another_one0
+    _0_0["another-one"] = v_0_0
+    v_0_ = v_0_0
+  end
+  _0_0["aniseed/locals"]["another-one"] = v_0_
+  another_one = v_0_
+end
+local my_function = nil
+do
+  local v_0_ = nil
+  do
+    local v_0_0 = nil
+    local function my_function0()
+      return print("another function!")
+    end
+    v_0_0 = my_function0
+    _0_0["my-function"] = v_0_0
+    v_0_ = v_0_0
+  end
+  _0_0["aniseed/locals"]["my-function"] = v_0_
+  my_function = v_0_
+end
+local returns_something = nil
+do
+  local v_0_ = nil
+  do
+    local v_0_0 = nil
+    local function returns_something0()
+      return 5
+    end
+    v_0_0 = returns_something0
+    _0_0["returns-something"] = v_0_0
+    v_0_ = v_0_0
+  end
+  _0_0["aniseed/locals"]["returns-something"] = v_0_
+  returns_something = v_0_
+end
 return nil
