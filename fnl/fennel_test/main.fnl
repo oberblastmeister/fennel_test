@@ -10,3 +10,6 @@
   (print "another function!"))
 
 (defn returns-something [] 5)
+
+(defn changed-something []
+  (print "this was changed"))
