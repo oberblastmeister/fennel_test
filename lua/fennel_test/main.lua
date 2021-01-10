@@ -91,4 +91,19 @@ do
   _0_0["aniseed/locals"]["returns-something"] = v_0_
   returns_something = v_0_
 end
+local changed_something = nil
+do
+  local v_0_ = nil
+  do
+    local v_0_0 = nil
+    local function changed_something0()
+      return print("this was changed")
+    end
+    v_0_0 = changed_something0
+    _0_0["changed-something"] = v_0_0
+    v_0_ = v_0_0
+  end
+  _0_0["aniseed/locals"]["changed-something"] = v_0_
+  changed_something = v_0_
+end
 return nil
